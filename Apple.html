@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Apple.css">
+    <title>Apple / Roqia Ahmed</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="#"><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>iphone 13 pro max</h2>
+                <p>It's good and better to choose your favourite color of your iphone !!!</p>
+                <a href="#products">All products</a>
+            </div>      
+            <div class="image">
+                <img class="img" src="0.png">
+            </div>
+        </div>
+        <div class="icons">
+            <img onclick="phones(this.src); colors('#000')" src="0.png">
+            <img onclick="phones(this.src); colors('#247ec8')" src="1.png">
+            <img onclick="phones(this.src); colors('#1e1e1e')" src="2.png">
+            <img onclick="phones(this.src); colors('#c79b53')" src="3.png">
+            <img onclick="phones(this.src); colors('#c82525')" src="4.png">
+
+        </div>
+    </div>
+
+    <section id="products">
+        <h2>Products</h2>
+        <div class ="products-container">
+            <div class="card">
+            <h3>iPhone 13 Pro Max</h3>
+            <p>Powerful performance with an advanced camera system.</p>
+            </div>
+
+            <div class="card">
+            <h3>MacBook Air</h3>
+            <p>Lightweight, fast, and powered by the Apple M-series chip.</p>
+            </div>
+
+            <div class="card">
+            <h3>Apple Watch</h3>
+            <p>Track your health and stay connected wherever you go.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="news">
+        <h2>News</h2>
+         <div class="news-card">
+            <p> Stay updated with Apple's newest product launches,
+        software updates, and exciting technology innovations.</p>
+            </div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <div class="about-card">
+        <p>
+        Apple is one of the world's leading technology companies,
+        known for creating innovative products that combine elegant
+        design with powerful performance. From iPhone and iPad to
+        MacBook and Apple Watch, Apple continues to inspire millions
+        of users around the world.
+       </p>
+       </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p class="contact-desc">
+        We'd love to hear from you! If you have any questions,
+        suggestions, or feedback, feel free to contact us.
+       </p>
+
+    <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    </section>
+
+    <script src="Apple.js"> </script>
+</body>
+</html>
